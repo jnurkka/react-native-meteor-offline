@@ -30,10 +30,11 @@
   "homepage": "https://github.com/DesignmanIO/react-native-meteor-redux#readme",
   "dependencies": {
     "lodash": "^4.17.4",
-    "next-frame": "^0.2.3",
-    "react-native-meteor": "jnurkka/react-native-meteor",
     "redux": "^3.6.0",
     "redux-persist": "^4.0.1",
     "events": "^1.1.1"
+  },
+  "peerDependencies": {
+    "react-native-meteor": "jnurkka/react-native-meteor"
   }
 }
